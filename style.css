@@ -1,4 +1,5 @@
 body{
+    font-family: "Tanker";
     text-align: center;
     background-image: url(Background.jpg);
     background-repeat: no-repeat;
@@ -25,10 +26,10 @@ body{
     left: 0;
     right: 0;
     margin: auto;
-    top: 40vh;
+    top: 30vh;
 }
 .div4{
-    background: #ebdbb2;
+    background: #fabd2f;
     position: absolute;
     margin-top: 1vh;
     margin-left: 1vh;
