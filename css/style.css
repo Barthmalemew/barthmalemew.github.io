@@ -2,7 +2,8 @@
     font-family: "Tanker";
     src: url("css/fonts/Tanker-Regular.eot");
     src: url("css/fonts/Tanker-Regular.woff") format("woff"), 
-         url("css/fonts/Tanker-Regular.otf") format("opentype");
+         url("css/fonts/Tanker-Regular.otf") format("opentype"),
+         url("css/fonts/Tanker-Regular.ttf") format("turtype");
 }
 body{
     text-align: center;
