@@ -1,6 +1,6 @@
 @font-face{
     font-family: "Tanker";
-    src: url('../Barthmalemew.github.io/Tanker_Complete/Fonts/OTF/Tanker-Regular.otf');
+    src: ('Tanker-Regular.otf');
 }
 body{
     font-family: 'Tanker';
