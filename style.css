@@ -1,5 +1,6 @@
 body{
     font-family: "Tanker";
+    src: url('/Tanker_Complete/Fonts/OTF/Tanker-Regular.otf');
     text-align: center;
     background-image: url(Background.jpg);
     background-repeat: no-repeat;
