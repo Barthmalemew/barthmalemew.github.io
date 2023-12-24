@@ -1,9 +1,9 @@
 @font-face{
-    font-family: "Tanker";
+    font-family: Tanker;
     src: ("../Barthmalemew.github.io/fonts/Tanker-Regular.otf");
 }
 body{
-    font-family: 'Tanker';
+    font-family: Tanker;
     text-align: center;
     background-image: url(Background.jpg);
     background-repeat: no-repeat;
