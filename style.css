@@ -1,9 +1,9 @@
 @font-face{
-    font-family: Tanker;
+    font-family: "Tanker";
     src: ("../Barthmalemew.github.io/fonts/Tanker-Regular.otf");
 }
 body{
-    font-family: Tanker;
+    font-family: "Tanker";
     text-align: center;
     background-image: url(Background.jpg);
     background-repeat: no-repeat;
@@ -24,6 +24,7 @@ body{
     height: 22vh;  
 }
 .div3{
+    font-family: "Tanker";
     background: rgba(0,0,0,0);
     color: #fabd2f;
     position: absolute;
