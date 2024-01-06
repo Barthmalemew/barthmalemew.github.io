@@ -4,6 +4,7 @@
     src: url("../css/fonts/Tanker-Regular.otf");
 }
 body{
+    margin: 0;
     text-align: center;
     background-image: url("images/Background.jpg");
     background-repeat: no-repeat;
