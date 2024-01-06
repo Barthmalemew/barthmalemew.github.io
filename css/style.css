@@ -3,7 +3,7 @@
     src: url("../../../css/fonts/Tanker-Regular.otf");
     src: url("../css/fonts/Tanker-Regular.otf");
 }
-body{
+* html, body{
     margin: 0px;
     border: 0px;
     padding: 0px;
