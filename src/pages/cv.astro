@@ -1,0 +1,70 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title="Resume" sideBarActiveItemID="cv">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">About</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    I am a lifelong programmer who began my journey at the age of 8, learning Java from my dad. My passion lies in integrating diverse systems and technologies to create innovative and effective solutions. I have a strong affinity for Free and Open Source Software (FOSS) and have gained extensive experience with various Linux distributions.
+
+    My career is characterized by a commitment to continuous learning and staying at the forefront of technological advancements. I excel at blending different technologies to achieve seamless and functional final products.
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="B.S. Computer Science"
+      subtitle="2022 to current at East Carolina University, Greenville, USA"
+    />
+    <TimeLineElement
+      title="Associates in Science"
+      subtitle="2020 to 2022 at Wayne Comunity College, Goldsboro, USA"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experience</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+        title="Chair the ACM chapter of ECU"
+        subtitle="From May 2024 to current at East Carolina University, Greenville, USA"
+    >
+    </TimeLineElement>
+    <TimeLineElement
+      title="Undergraduate Researcher"
+      subtitle="From January, 2024 to Current at East Carolina University, Greenville, USA"
+    >
+    </TimeLineElement>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Skills</div>
+  </div>
+
+  <ul class="list-disc md:columns-5 columns-2 mx-6">
+    <li>Java</li>
+    <li>nodeJS</li>
+    <li>Spring</li>
+    <li>Python</li>
+    <li>OpenCV</li>
+    <li>Unix C</li>
+    <li>Calculus 1-2</li>
+    <li>Vim/Neovim</li>
+    <li>MySQL</li>
+    <li>MongoDB</li>
+    <li>Algorithms</li>
+    <li>Data Structures</li>
+    <li>React</li>
+    <li>PHP</li>
+    <li>JavaScript</li>
+  </ul>
+</BaseLayout>
