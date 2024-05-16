@@ -6,6 +6,5 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
     site: 'https://barthmalemew.github.io',
-    base: 'barthmalemew.github.io',
     integrations: [mdx(), sitemap(), tailwind()]
 });
